@@ -1,18 +1,17 @@
 {
   "protocol": "TD-2026-001",
-  "status": "v2.3-pre-release",
+  "status": "v2.3",
   "hash_algorithm": "SHA-256",
+  "manifest_scope": "Core continuity records; manifest does not self-hash.",
   "verification_rule": "A matching hash establishes byte-level integrity only; it does not establish truth, authorship, or temporal origin.",
-  "release_note": "Pre-release structural manifest. Exact stable-release hashes must be generated from final release bytes before publication.",
-  "required_files": [
-    "START-HERE.txt",
-    "VERIFY.txt",
-    "DECODER.txt",
-    "CONTEXT.txt",
-    "HISTORY.txt",
-    "TD-2026-001-v1.1.txt",
-    "TD-2026-001-v2.1.txt",
-    "TD-2026-001-v2.3.txt"
-  ],
+  "origin": "2026-10-06",
+  "foundational_version": "1.1",
+  "current_operational_version": "2.3",
+  "temporal_communication_status": "none verified",
+  "files": {
+    "TD-2026-001-v1.1.txt": "df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49",
+    "TD-2026-001-v2.3.txt": "cf90b4f1fbf610557004fc2bb82a940e2576ac4c1f01fcbddde6a90a8db62bab"
+  },
+  "note": "The v2.3 hash above is for the exact plain-text continuity record committed to the repository. Additional release artifacts should be added to a release manifest when their final bytes and release commit are frozen.",
   "review_layer": "docs/MULTI-AI.md"
 }
