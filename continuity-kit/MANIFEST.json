@@ -1,17 +1,18 @@
 {
   "protocol": "TD-2026-001",
-  "status": "v2.3",
+  "status": "v2.4",
   "hash_algorithm": "SHA-256",
   "manifest_scope": "Core continuity records; manifest does not self-hash.",
   "verification_rule": "A matching hash establishes byte-level integrity only; it does not establish truth, authorship, or temporal origin.",
   "origin": "2026-10-06",
   "foundational_version": "1.1",
-  "current_operational_version": "2.3",
+  "current_operational_version": "2.4",
   "temporal_communication_status": "none verified",
   "files": {
     "TD-2026-001-v1.1.txt": "df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49",
-    "TD-2026-001-v2.3.txt": "cf90b4f1fbf610557004fc2bb82a940e2576ac4c1f01fcbddde6a90a8db62bab"
+    "TD-2026-001-v2.3.txt": "cf90b4f1fbf610557004fc2bb82a940e2576ac4c1f01fcbddde6a90a8db62bab",
+    "TD-2026-001-v2.4.txt": "PENDING_FINAL_RELEASE_HASH"
   },
-  "note": "The v2.3 hash above is for the exact plain-text continuity record committed to the repository. Additional release artifacts should be added to a release manifest when their final bytes and release commit are frozen.",
+  "note": "The v2.3 hash above is for the exact plain-text continuity record committed to the repository. The v2.4 continuity record is present, but its release hash remains explicitly pending until the v2.4 release bytes are frozen. No pending hash is treated as verification.",
   "review_layer": "docs/MULTI-AI.md"
 }
