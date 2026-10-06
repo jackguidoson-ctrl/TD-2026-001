@@ -35,3 +35,12 @@ df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49
 
 Canonical v2.1 SHA-256: see the v2.1 manifest.
 Current public repository: jackguidoson-ctrl/TD-2026-001
+
+
+Research-informed architecture:
+RESEARCH.md compares major long-term preservation precedents.
+docs/ARCHITECTURE.md defines the five-layer continuity model.
+docs/VERIFICATION.md defines skeptical temporal-communication testing.
+docs/TECH-TREE.md preserves technical context.
+continuity-kit/ is a self-contained future-readable package.
+.github/workflows/integrity.yml provides automated integrity checks.
