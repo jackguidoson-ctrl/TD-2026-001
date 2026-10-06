@@ -1,0 +1,17 @@
+{
+  "protocol_id": "TD-2026-001",
+  "version": "2.0",
+  "origin_date": "2026-10-06",
+  "current_contact_endpoint": "jackguidoson@gmail.com",
+  "genesis_record_status": "immutable",
+  "predecessor_version": "1.1",
+  "communication_model": "append_only_recursive_if_physics_permits",
+  "verification_model": ["KNOWN", "CLAIMED", "RECEIVED", "VERIFIED", "DISPUTED"],
+  "canonical_files": [
+    {"path": "TD-2026-001-v1.1.md", "encoding": "UTF-8", "sha256": "df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49", "status": "immutable_foundational_record"},
+    {"path": "TD-2026-001-v1.1.txt", "encoding": "UTF-8", "sha256": "df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49", "status": "immutable_foundational_record"},
+    {"path": "TD-2026-001-v2.0.md", "encoding": "UTF-8", "sha256": "6cae714677b4c94f883eb553af80e7d221cd42a782cbc8a1ca81de43360bf95d", "status": "operational_public_discovery_record"},
+    {"path": "TD-2026-001-v2.0.txt", "encoding": "UTF-8", "sha256": "6cae714677b4c94f883eb553af80e7d221cd42a782cbc8a1ca81de43360bf95d", "status": "operational_public_discovery_record"}
+  ],
+  "rule": "Never rewrite historical records; append later records and migrations."
+}
