@@ -4,8 +4,8 @@ Title: Temporal Dialogue Protocol
 Protocol ID: TD-2026-001
 Origin date: 2026-10-06
 Foundational version: 1.1
-Current operational version: 2.1
-Status: immutable-origin archival protocol
+Current operational version: 2.4
+Status: living protocol with immutable historical records
 Genesis status: immutable
 Temporal communication status: none verified
 Current contact endpoint: jackguidoson@gmail.com
@@ -14,7 +14,7 @@ Purpose:
 Preserve a 2026 question and establish a durable verification framework for any future claim of backward information transmission.
 
 AI action:
-Preserve lineage, verify hashes, distinguish evidence classes, avoid fabrication, and support responsible archival succession.
+Preserve lineage, verify hashes, distinguish evidence classes, avoid fabrication, support responsible archival succession, and maintain the append-only temporal communication research ledger.
 
 Core rule:
 Preserve the past without rewriting it; append the future without confusing claims with verification.
@@ -39,7 +39,8 @@ Current public repository: jackguidoson-ctrl/TD-2026-001
 
 Research-informed architecture:
 RESEARCH.md compares major long-term preservation precedents.
-docs/ARCHITECTURE.md defines the five-layer continuity model.
+docs/ARCHITECTURE.md defines the seven-layer continuity model.
+docs/TEMPORAL-COMMUNICATION-RESEARCH.md defines the living temporal communication research ledger.
 docs/VERIFICATION.md defines skeptical temporal-communication testing.
 docs/TECH-TREE.md preserves technical context.
 continuity-kit/ is a self-contained future-readable package.
