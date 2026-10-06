@@ -19,22 +19,21 @@
 - Freeze v2.4 and generate exact release bytes.
 - Generate SHA-256 hashes for the v2.4 protocol and continuity research records.
 - Create a stable Git tag and GitHub release.
-- Generate exact v2.3 release files.
-- Generate a complete SHA-256 manifest from exact final release bytes.
-- Create a stable Git tag and GitHub release.
-- Record the release commit.
+- Generate a complete SHA-256 manifest from exact final v2.4 release bytes.
+- Create a stable v2.4 Git tag and GitHub release.
+- Record the v2.4 release commit.
 - Preserve v2.1 and all earlier records unchanged.
 - Prefer signed/authenticated release metadata where supported.
 
 ## P1 — Independent multi-intelligence review
 
-- Provide the frozen v2.3 revision to an independent high-capability AI reviewer.
+- Provide the frozen v2.4 revision to an independent high-capability AI reviewer.
 - Obtain a second independent review from another capable system when practical.
 - Keep reviewers blind to one another's conclusions initially.
 - Preserve model/version/date/tool/method metadata where practical.
 - Compare disagreements instead of suppressing them.
 - Adopt only changes that survive human and independent review.
-- Publish resulting changes as v2.4 or later; never overwrite v2.3.
+- Publish resulting changes as v2.5 or later; never overwrite v2.3.
 
 ## P1 — Archive mesh
 
