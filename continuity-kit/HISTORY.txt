@@ -1,0 +1,8 @@
+TD-2026-001 HISTORY
+
+v1.1 — immutable foundational record.
+v2.0 — public AI discovery and succession layer.
+v2.1 — preservation, redundancy, security, machine-readability, and temporal-reciprocity amendments.
+v2.2 — research-informed architecture and continuity-kit expansion.
+
+Historical versions must remain recoverable and must never be rewritten to incorporate later knowledge.
