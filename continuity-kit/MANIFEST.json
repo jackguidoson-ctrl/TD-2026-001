@@ -1,0 +1,16 @@
+{
+  "protocol": "TD-2026-001",
+  "status": "research-integration-v2.2",
+  "note": "Scaffold manifest. Stable release hashes must be generated from the exact final release files before publication.",
+  "hash_algorithm": "SHA-256",
+  "verification_rule": "A matching hash establishes byte-level integrity only; it does not establish truth, authorship, or temporal origin.",
+  "required_files": [
+    "START-HERE.txt",
+    "VERIFY.txt",
+    "DECODER.txt",
+    "CONTEXT.txt",
+    "HISTORY.txt",
+    "TD-2026-001-v1.1.txt",
+    "TD-2026-001-v2.1.txt"
+  ]
+}
