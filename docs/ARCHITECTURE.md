@@ -1,13 +1,14 @@
 # TD-2026-001 Continuity Architecture
 
-## Six layers
+## Seven layers
 
 1. **Genesis** — immutable human-origin records, especially v1.1.
 2. **Protocol** — versioned operational rules; v2.1 remains preserved and v2.3 is the current operational layer.
 3. **Continuity Kit** — self-contained future-readable explanation, verification, decoding, and context.
 4. **Multi-Intelligence Review** — independent AI/human critiques, disagreements, and correction records.
 5. **Archive Mesh** — independent digital, web, offline, and physical witnesses.
-6. **Succession** — documented addition of records and custodians without rewriting history.
+6. **Temporal Communication Research** — living, append-only research into possible temporal information transfer, kept separate from verified protocol facts.
+7. **Succession** — documented addition of records and custodians without rewriting history.
 
 ## Core design principles
 
@@ -36,6 +37,10 @@ No AI is permanently authoritative.
 Independent review should precede consensus whenever practical.
 
 Disagreement is preserved as historical information.
+
+## Temporal research boundary
+
+The research layer may change as physics and experiments develop, but historical research entries remain append-only. A candidate mechanism must progress from theory through controllable information transfer and independent reproduction before any claim of verified temporal communication is accepted.
 
 ## Verification model
 
