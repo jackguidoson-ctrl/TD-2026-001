@@ -28,6 +28,7 @@ jobs:
           test -f TD-2026-001-v2.0.md
           test -f TD-2026-001-v2.1.md
           test -f TD-2026-001-v2.3.md
+          test -f TD-2026-001-v2.4.md
           test -f TD-2026-001-v1.1.txt
           test -f TD-2026-001-v2.1.txt
           test -f continuity-kit/START-HERE.txt
@@ -36,6 +37,9 @@ jobs:
           test -f continuity-kit/CONTEXT.txt
           test -f continuity-kit/HISTORY.txt
           test -f continuity-kit/TD-2026-001-v2.3.txt
+          test -f continuity-kit/TD-2026-001-v2.4.txt
+          test -f docs/TEMPORAL-COMMUNICATION-RESEARCH.md
+          test -f continuity-kit/TEMPORAL-RESEARCH.txt
           test -f docs/MULTI-AI.md
       - name: Check JSON syntax
         shell: bash
@@ -50,6 +54,7 @@ jobs:
           set -euo pipefail
           test "$(sha256sum continuity-kit/TD-2026-001-v1.1.txt | cut -d' ' -f1)" = "df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49"
           test "$(sha256sum continuity-kit/TD-2026-001-v2.3.txt | cut -d' ' -f1)" = "cf90b4f1fbf610557004fc2bb82a940e2576ac4c1f01fcbddde6a90a8db62bab"
+          echo "v2.4 SHA-256: $(sha256sum continuity-kit/TD-2026-001-v2.4.txt | cut -d' ' -f1)"
       - name: Detect obvious secret material
         shell: bash
         run: |

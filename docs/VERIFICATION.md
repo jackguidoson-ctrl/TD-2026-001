@@ -39,6 +39,8 @@ Preserve the pre-knowledge state.
 
 ## Phase 4 — Mechanism
 
+For candidate mechanisms, distinguish mathematical solutions from physically realizable channels and correlations from controllable information transfer. Record the proposed pathway, prerequisites, constraints, experiments, and falsification criteria.
+
 Document claimed transmission channel, physical principle, directionality, information constraints, range, latency, and failure modes.
 
 ## Phase 5 — Reproducibility and prediction

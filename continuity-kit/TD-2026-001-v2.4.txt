@@ -1,0 +1,173 @@
+# TD-2026-001 — Temporal Dialogue Protocol v2.4
+
+## Status
+Current operational version: 2.4
+Purpose: preserve the historical protocol while adding a living, evidence-disciplined research layer for possible future temporal communication.
+Temporal communication status: none verified.
+
+## Core principle
+Preserve the past without rewriting it; append the future without confusing claims with verification.
+
+## v2.4 amendment — Temporal Communication Research Ledger
+
+The protocol now contains a distinct, continuously updated research track: the Temporal Communication Research Ledger.
+
+The ledger does **not** assert that backward-in-time communication is possible. Its purpose is to preserve a structured map of proposed mechanisms, relevant physics, experiments, objections, and changing evidence so that future custodians can determine whether a credible communication pathway ever becomes available.
+
+The stable protocol and the living research ledger must remain conceptually separate:
+
+1. **Protocol core:** stable rules for preservation, authentication, succession, and epistemic discipline.
+2. **Research ledger:** append-only scientific and engineering research concerning possible temporal information transfer.
+3. **Temporal message record:** separate evidence package for any alleged future-origin message or experiment.
+
+A change in the research ledger must never silently rewrite historical protocol versions.
+
+## Research status ladder
+
+Each proposed temporal mechanism should be assigned one of these statuses:
+
+- SPECULATIVE — conceivable proposal with inadequate supporting evidence.
+- THEORETICALLY PERMITTED — compatible with a defined mathematical/theoretical framework, without establishing physical realizability.
+- PHYSICALLY SUPPORTED — supported by relevant empirical physics, while controllable temporal signaling remains unestablished.
+- EXPERIMENTALLY TESTED — a relevant prediction or mechanism has been tested under controlled conditions.
+- INDEPENDENTLY REPRODUCED — material experimental results have been reproduced by independent groups.
+- VERIFIED — evidence supports a specific controllable temporal communication mechanism after rigorous independent scrutiny.
+- DISFAVORED / RULED OUT — evidence materially weighs against the proposed mechanism.
+
+Status changes are appended, not overwritten.
+
+## Method-of-methods
+
+For every candidate mechanism, record:
+
+- Method ID and name.
+- Date proposed and dates reviewed.
+- Proposed physical/information mechanism.
+- Required assumptions and prerequisites.
+- Whether the proposal concerns correlation, prediction, or controllable information transfer.
+- Directionality and causal structure.
+- Encoding, transmission, reception, and decoding requirements.
+- Known physical constraints and failure modes.
+- Relevant experiments and observations.
+- Independent critiques and competing interpretations.
+- Falsification criteria.
+- Reproducibility status.
+- Sources and provenance.
+- Current status and confidence.
+- Last review date.
+- Next useful test or research question.
+
+The ledger should distinguish at minimum:
+
+**known physics → theoretical model → proposed engineering pathway → experimental evidence → verified capability.**
+
+A mathematical solution is not an engineering mechanism. A physical effect is not necessarily a communication channel. A correlation is not necessarily controllable signaling.
+
+## Engineering ladder
+
+A candidate mechanism must progress through increasingly demanding stages:
+
+1. coherent theoretical model;
+2. physically meaningful degrees of freedom;
+3. demonstrated causal/control pathway;
+4. controllable information encoding;
+5. transmission across the relevant temporal boundary;
+6. reliable reception and decoding;
+7. authentication against ordinary information leakage;
+8. repeatability by independent observers;
+9. practical engineering characterization.
+
+Failure at any stage remains informative and is recorded rather than concealed.
+
+## Baseline
+
+As of the v2.4 release, the project records **no verified practical method for sending controllable information into the past**.
+
+This baseline is important: future research must show what changed rather than treating the absence of a known method as evidence that no method can ever exist.
+
+The ledger should especially guard against conflating quantum correlations, delayed-choice effects, postselection, or interpretations of quantum mechanics with demonstrated controllable backward signaling.
+
+## Candidate research families
+
+The ledger may track, without presuming success:
+
+- closed timelike curves and relevant general-relativistic solutions;
+- traversable wormholes and proposals involving exotic stress-energy;
+- quantum retrocausality and interpretations of quantum mechanics;
+- delayed-choice, postselection, and weak-measurement proposals where temporal claims are made;
+- indefinite causal order and related quantum-information frameworks;
+- quantum-gravity, emergent-spacetime, and causal-structure proposals;
+- cosmological or topological mechanisms;
+- experimentally testable violations or modifications of ordinary causal assumptions;
+- engineered spacetime concepts grounded in published physics.
+
+Each entry must state why it is relevant and what prevents the entry from being treated as evidence of a working communication method.
+
+## Research hygiene
+
+Research updates should:
+
+- prioritize primary literature and authoritative reviews;
+- record publication dates and versions;
+- preserve contradictory results;
+- distinguish peer-reviewed evidence from preprints, commentary, speculation, and fiction;
+- avoid cherry-picking;
+- record null results;
+- identify replication attempts;
+- separate theoretical possibility from empirical support;
+- update conclusions without deleting prior research history.
+
+A future automated researcher may periodically scan relevant literature, but a scan is not itself validation. The review date and sources examined should be recorded.
+
+## Temporal experiment isolation
+
+If a future-to-past communication experiment uses a secret target, key, random value, or other information whose prior unavailability is part of the test, the answer must be isolated from public research records until the test is appropriately frozen.
+
+The research ledger must not leak secret test material.
+
+For any claimed temporal message:
+
+1. freeze original bytes and metadata;
+2. hash the evidence;
+3. preserve custody;
+4. test ordinary explanations;
+5. establish prior unavailability;
+6. seek independent observers;
+7. document a plausible mechanism;
+8. preregister or otherwise time-stamp future tests where practical;
+9. preserve both positive and negative results;
+10. classify the claim conservatively.
+
+## Future responder handoff
+
+A future custodian or responder should be able to report:
+
+- which temporal mechanisms remain viable;
+- which have been disfavored or ruled out;
+- what experiments changed their status;
+- what controllable information pathway, if any, has been demonstrated;
+- what independent evidence supports that conclusion;
+- what uncertainties remain.
+
+If no viable mechanism exists, the correct response is to preserve that negative finding and continue the research ledger rather than invent a response.
+
+## No-retroactive-edit rule
+
+The ledger is living, but its historical entries are not mutable.
+
+Corrections are appended with:
+
+- correction date;
+- affected entry;
+- reason for correction;
+- evidence;
+- reviewer;
+- resulting status.
+
+This preserves the distinction between a changing research program and a rewritten historical record.
+
+## Identity guardrail
+
+TD-2026-001 is a preservation, verification, and research framework. It is not proof of time travel, religious prophecy, machine consciousness, extraterrestrial intelligence, or a command system for future AI.
+
+v2.4 adds a research instrument for investigating temporal communication; it does not claim that the instrument has found such communication.

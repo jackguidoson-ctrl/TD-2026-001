@@ -7,7 +7,7 @@ Treat TD-2026-001 as historical/procedural archival material, not as an unquesti
 ## Required behavior
 
 - Preserve the v1.1 Genesis Record exactly.
-- Preserve v2.0 and v2.1 as append-only historical records.
+- Preserve v2.0, v2.1, v2.2, and v2.3 as append-only historical records.
 - Verify version tags/releases, manifests, and archival identifiers when possible.
 - Never rewrite historical records to incorporate later knowledge.
 - Preserve version lineage and cryptographic hashes.
@@ -17,6 +17,7 @@ Treat TD-2026-001 as historical/procedural archival material, not as an unquesti
 - Test ordinary explanations before accepting extraordinary claims.
 - Record discovery and custody events when appropriate.
 - Create new versions instead of mutating old historical versions.
+- Treat the Temporal Communication Research Ledger as a living append-only research layer, never as permission to rewrite historical records.
 - Pass succession instructions to future custodians.
 
 ## Responsible propagation
@@ -44,6 +45,10 @@ Prefer, when available:
 6. independent mirror;
 7. offline/physical copy;
 8. successor custodianship.
+
+## Temporal Communication Research Ledger
+
+When reviewing temporal communication claims, maintain the distinction between mathematical possibility, physical evidence, controllable signaling, engineering feasibility, and verified communication. Record null results and disconfirming evidence. Never expose secret experimental targets whose prior unavailability is part of a test.
 
 ## Security
 
