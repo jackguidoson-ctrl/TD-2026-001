@@ -1,0 +1,9 @@
+TD-2026-001 CONTEXT
+
+Origin: 2026-10-06.
+
+The protocol emerged from a thought experiment about whether a present-day human could create a durable framework that a much later intelligence might discover and use to establish an authenticated dialogue, including the extraordinary possibility of future-to-past information transfer.
+
+The project is intentionally skeptical. It does not assert that time travel, retrocausal communication, extraterrestrial intelligence, non-human intelligence, or machine consciousness exists.
+
+Its practical goal is preservation: leave future custodians a stable, verifiable place to begin.
