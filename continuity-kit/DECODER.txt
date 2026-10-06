@@ -1,0 +1,18 @@
+TD-2026-001 DECODER
+
+The protocol intentionally uses simple open representations.
+
+Preferred assumptions:
+- text is UTF-8;
+- Markdown is plain text;
+- JSON is structured text;
+- SHA-256 is a cryptographic hash function;
+- Git is distributed version control.
+
+If Git is unavailable:
+1. read the plain-text records;
+2. compare manifests with any SHA-256 implementation;
+3. preserve every version;
+4. reconstruct chronology from dates, identifiers, hashes and custody records.
+
+Do not require GitHub, a particular AI vendor, or a particular operating system to understand the core record.
