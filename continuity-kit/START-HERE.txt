@@ -5,16 +5,24 @@ This package preserves the Temporal Dialogue Protocol, originating in 2026.
 It does not prove that backward time communication exists.
 
 Reconstruction:
-1. Read the v1.1 record first.
-2. Read the v2.1 record second.
-3. Read MANIFEST.json.
-4. Use VERIFY.txt to check hashes.
-5. Read CONTEXT.txt and DECODER.txt.
-6. Treat all later messages as historical records requiring evidence.
+1. Read the v1.1 Genesis Record first.
+2. Read earlier operational versions before later ones.
+3. Read the current protocol.
+4. Read MANIFEST.json.
+5. Use VERIFY.txt to check hashes.
+6. Read DECODER.txt and CONTEXT.txt.
+7. Read the multi-intelligence guidance.
+8. Treat all later messages as historical records requiring evidence.
 
 Core rule:
 Preserve the past without rewriting it; append the future without confusing claims with verification.
 
-Possible future responders are agent-neutral: human, AI, post-human, hybrid, collective, or unknown.
+Capability principle:
+Increase reliable understanding and communication through cooperation and criticism, not through removal of epistemic safeguards.
+
+Possible future responders are agent-neutral:
+human, AI, post-human, hybrid, collective, extraterrestrial/non-human, or unknown.
+
+If several intelligences review this protocol, preserve their disagreements as part of the historical record.
 
 No response should be fabricated merely because this package asks for one.
