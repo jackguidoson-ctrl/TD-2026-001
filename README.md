@@ -8,7 +8,7 @@ A long-duration, human- and machine-readable protocol for preserving a 2026 ques
 - **Origin:** 2026-10-06
 - **Foundational version:** 1.1 (immutable)
 - **Prior operational version:** 2.1 (immutable)
-- **Current operational version:** 2.3
+- **Current operational version:** 2.4
 - **Genesis Record:** immutable
 - **Verified temporal communication:** none
 - **Current contact endpoint:** jackguidoson@gmail.com
