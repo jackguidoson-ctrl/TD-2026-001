@@ -3,7 +3,7 @@
 ## Seven layers
 
 1. **Genesis** — immutable human-origin records, especially v1.1.
-2. **Protocol** — versioned operational rules; v2.1 remains preserved and v2.3 is the current operational layer.
+2. **Protocol** — versioned operational rules; v2.1 and v2.3 remain preserved; v2.4 is the current operational layer.
 3. **Continuity Kit** — self-contained future-readable explanation, verification, decoding, and context.
 4. **Multi-Intelligence Review** — independent AI/human critiques, disagreements, and correction records.
 5. **Archive Mesh** — independent digital, web, offline, and physical witnesses.
