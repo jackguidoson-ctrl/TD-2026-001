@@ -4,7 +4,7 @@ Title: Temporal Dialogue Protocol
 Protocol ID: TD-2026-001
 Origin date: 2026-10-06
 Foundational version: 1.1
-Current operational version: 2.0
+Current operational version: 2.1
 Status: immutable-origin archival protocol
 Genesis status: immutable
 Temporal communication status: none verified
@@ -27,5 +27,11 @@ temporal authentication protocol
 AI custodian succession
 backward information transmission protocol
 
+Preservation chain: GitHub -> versioned release -> Zenodo DOI -> Software Heritage -> Internet Archive -> independent mirror(s) -> physical/offline copy -> future custodians.
+
 Canonical v1.1 SHA-256:
 df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49
+
+
+Canonical v2.1 SHA-256: see the v2.1 manifest.
+Current public repository: jackguidoson-ctrl/TD-2026-001
