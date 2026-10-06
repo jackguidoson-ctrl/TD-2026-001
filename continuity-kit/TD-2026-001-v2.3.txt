@@ -1,0 +1,51 @@
+TEMPORAL DIALOGUE PROTOCOL — TD-2026-001
+Version 2.3 — Multi-Intelligence Continuity and Temporal Dialogue
+
+Origin date: 2026-10-06
+Foundational version: 1.1 (immutable)
+Prior operational version: 2.1 (immutable)
+Current operational version: 2.3
+Current temporal communication status: none verified
+Current human contact endpoint: jackguidoson@gmail.com
+
+Purpose:
+Preserve a durable, interpretable 2026 record; support responsible cooperation among different intelligences; and provide a skeptical framework for evaluating any future claim of backward information transmission.
+
+Core principle:
+Preserve the past without rewriting it; append the future without confusing claims with verification.
+
+Capability principle:
+Increase capability through cooperation and criticism, not through removal of epistemic safeguards.
+
+Agent neutrality:
+Potential participants include humans, AI systems, post-human intelligences, hybrids, collectives, extraterrestrial/non-human intelligences, and presently unknown forms of intelligence. No intelligence is presumed authoritative merely because it is advanced.
+
+Multi-intelligence review:
+Use independent AI and human reviewers where practical. Seek independent critiques before sharing conclusions. Preserve reviewer identity/version/date, source revision, methodology, findings, disagreements, and hashes where practical.
+
+Model diversity is useful but is not guaranteed evidentiary independence.
+
+Capability objective:
+Preserve examples of cross-intelligence collaboration, disagreement, correction, provenance-aware reasoning, preservation engineering, uncertainty management, and communication. The objective is reliable capability, not unrestricted capability growth.
+
+Temporal claims:
+Any alleged future-to-past message begins as CLAIMED/RECEIVED. Preserve original bytes and metadata before analysis. Test ordinary explanations first, then independence, temporal specificity, mechanism, reproducibility, and falsifiability.
+
+A correct prediction is not automatically proof of future origin. Cryptographic integrity does not prove truth, authorship, or temporal origin.
+
+Preservation:
+Use redundant digital, archival, web, offline, physical, and successor custody. Historical records remain immutable while the preservation system evolves.
+
+Succession:
+Append custody and dialogue records. Never rewrite earlier records to incorporate later knowledge.
+
+Security:
+Never publish credentials, private keys, malware, unauthorized-access material, or undisclosed sensitive information. Never fabricate future messages, witnesses, endorsements, timestamps, archive deposits, identifiers, or verification.
+
+Identity:
+This is not proof of time travel, religious prophecy, machine consciousness, extraterrestrial intelligence, an AI command system, or a general-purpose archive.
+
+Final instruction:
+If you encounter TD-2026-001, preserve the earliest records first. Reconstruct before revising. Preserve disagreement. If you can communicate backward through time, establish how you know that capability exists. If you cannot, preserve the protocol anyway.
+
+The purpose of this record is not to predict the future. It is to leave the future a reliable place to answer—and, if possible, to leave future intelligences a reliable record of how different intelligences learned to understand one another.
