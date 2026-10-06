@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "Temporal Dialogue Protocol"
+message: "Please cite the protocol identifier and version when referring to this record."
+type: dataset
+version: "2.0"
+date-released: 2026-10-06
+identifier: "TD-2026-001"
+abstract: "A long-duration archival and verification protocol preserving a 2026 question for future human and artificial intelligences."
+keywords:
+  - temporal communication
+  - archival preservation
+  - AI agents
+  - provenance
+  - temporal authentication
