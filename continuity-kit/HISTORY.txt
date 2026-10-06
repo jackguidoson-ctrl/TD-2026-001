@@ -5,6 +5,7 @@ v2.0 — public AI discovery and succession layer.
 v2.1 — preservation, redundancy, security, machine-readability, and temporal-reciprocity amendments.
 v2.2 — research-informed architecture and continuity-kit expansion.
 v2.3 — multi-intelligence continuity, adversarial review, capability-with-epistemic-restraint, and future-interpreter testing.
+v2.4 — living, append-only Temporal Communication Research Ledger, mechanism-status ladder, engineering ladder, and future responder handoff.
 
 Historical versions must remain recoverable and must never be rewritten to incorporate later knowledge.
 
