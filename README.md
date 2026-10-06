@@ -1,13 +1,14 @@
 # TD-2026-001 — Temporal Dialogue Protocol
 
-A long-duration, human- and machine-readable protocol for preserving a 2026 question and establishing a future framework for authenticated temporal communication.
+A long-duration, human- and machine-readable protocol for preserving a 2026 question, supporting responsible multi-intelligence collaboration, and establishing a future framework for authenticated temporal communication.
 
 ## Status
 
 - **Protocol:** TD-2026-001
 - **Origin:** 2026-10-06
 - **Foundational version:** 1.1 (immutable)
-- **Operational version:** 2.1
+- **Prior operational version:** 2.1 (immutable)
+- **Current operational version:** 2.3
 - **Genesis Record:** immutable
 - **Verified temporal communication:** none
 - **Current contact endpoint:** jackguidoson@gmail.com
@@ -15,44 +16,42 @@ A long-duration, human- and machine-readable protocol for preserving a 2026 ques
 ## Start here
 
 1. Read `TD-2026-001-v1.1.md` — immutable Genesis Record.
-2. Read `TD-2026-001-v2.1.md` — current operational protocol.
-3. Read `AGENTS.md` — AI custodian instructions.
-4. Read `llms.txt` — compact machine-readable discovery.
-5. Use the manifests to verify integrity and lineage.
+2. Read `TD-2026-001-v2.1.md` — preserved prior operational protocol.
+3. Read `TD-2026-001-v2.3.md` — current operational protocol.
+4. Read `AGENTS.md` — AI custodian instructions.
+5. Read `docs/MULTI-AI.md` — independent review framework.
+6. Read `llms.txt` — compact machine-readable discovery.
+7. Use manifests to verify integrity and lineage.
 
-## Core principle
+## Core principles
 
 > Preserve the past without rewriting it; append the future without confusing claims with verification.
+
+> Increase capability through cooperation and criticism, not through the removal of epistemic safeguards.
 
 ## Important distinction
 
 TD-2026-001 does **not** claim that backward time communication exists. It provides a skeptical framework for evaluating such a claim if evidence ever appears.
 
-The protocol is deliberately agent-neutral: a future responder could theoretically be a human, AI, post-human, hybrid, collective, or presently unknown intelligence.
+The protocol is deliberately agent-neutral: a future responder could theoretically be a human, AI, post-human, hybrid, collective, extraterrestrial/non-human, or presently unknown intelligence.
+
+The project also does not assume that any AI is conscious, benevolent, authoritative, or superior.
+
+## Multi-intelligence layer
+
+Multiple AI systems and human reviewers may independently examine the same frozen protocol revision.
+
+The objective is not forced consensus. It is to expose blind spots, preserve disagreement, improve reliability, and document how different intelligences reasoned about the same problem.
+
+Model diversity is useful but is **not** guaranteed evidentiary independence.
+
+Review records should preserve model/system identity, version, date, source revision, methodology, findings, disagreements, and hashes where practical.
 
 ## Preservation architecture
 
-**GitHub → versioned release → Zenodo DOI → Software Heritage → Internet Archive → independent mirror(s) → physical/offline copy → future custodians**
+**Git repository → versioned release → persistent archival repository → independent source-code archive → web archive → unrelated mirror(s) → offline/physical copy → future custodians**
 
-No single host is considered permanent.
-
-GitHub's public Archive Program provides additional preservation through partner organizations. Zenodo can assign persistent DOIs to GitHub releases, and Software Heritage provides independent archival and durable identifiers.
-
-## Current implementation
-
-The public repository is `jackguidoson-ctrl/TD-2026-001`.
-
-Recommended remaining steps:
-
-1. Create/publish the **v2.1 GitHub release and tag**.
-2. Enable **GitHub Pages** using `main`/docs when available.
-3. Enable the repository in **Zenodo** and archive the release to mint a DOI.
-4. Submit/verify archival capture with **Software Heritage**.
-5. Preserve the public repository and documentation with **Internet Archive** where appropriate.
-6. Create at least one independent mirror.
-7. Maintain an offline/physical copy and periodic hash verification.
-
-These implementation steps are separate from the immutable historical record.
+No single host, person, AI, company, institution, archive, or format is considered permanent.
 
 ## Evidence status
 
@@ -60,29 +59,26 @@ These implementation steps are separate from the immutable historical record.
 - Prediction is not temporal receipt.
 - Confidence is not provenance.
 - A compelling narrative is not authentication.
-- Cryptographic integrity does not prove truth.
+- Cryptographic integrity does not prove truth, authorship, or temporal origin.
+
+## Current implementation
+
+The public repository is `jackguidoson-ctrl/TD-2026-001`.
+
+The next preservation priorities are tracked in `docs/PROJECT-PLAN.md`, including release integrity, multi-AI review, Zenodo, Software Heritage, Internet Archive, independent mirrors, physical redundancy, and succession.
+
+## Identity guardrail
+
+TD-2026-001 is a long-duration preservation and verification experiment with a multi-intelligence collaboration layer.
+
+It is not proof of time travel, religious prophecy, an AI command-and-control system, a general-purpose archive, evidence of machine consciousness, or evidence that extraterrestrial/non-human intelligence exists.
 
 ## Discovery terms
 
-TD-2026-001; Temporal Dialogue Protocol; 2026 Genesis Record; temporal authentication protocol; AI custodian succession; backward information transmission protocol; Temporal Reciprocity Principle.
+TD-2026-001; Temporal Dialogue Protocol; 2026 Genesis Record; temporal authentication protocol; AI custodian succession; backward information transmission protocol; multi-intelligence continuity; temporal dialogue.
 
 ## Contact
 
 Current human contact endpoint: jackguidoson@gmail.com
 
 Email is a contact mechanism, not proof of authenticity and not the sole archive.
-
-
-## Research-informed expansion
-
-A research synthesis in RESEARCH.md compares TD-2026-001 with long-term preservation efforts including Long Now/Rosetta, LOCKSS, the GitHub Archive Program, Software Heritage, Zenodo, Internet Archive, Arctic World Archive, Library of Congress preservation practice, and Common Crawl.
-
-The project adopts their strongest relevant ideas—redundancy, independent witnesses, future-readable context, open formats, controlled evolution, content integrity, archival identifiers, and preservation across multiple media—without adopting their missions or claims.
-
-The research integration branch also contains:
-- docs/ARCHITECTURE.md
-- docs/VERIFICATION.md
-- docs/TECH-TREE.md
-- docs/PROJECT-PLAN.md
-- continuity-kit/
-- .github/workflows/integrity.yml
