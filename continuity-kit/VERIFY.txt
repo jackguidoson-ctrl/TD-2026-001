@@ -1,0 +1,13 @@
+TD-2026-001 VERIFICATION
+
+Use any standard SHA-256 implementation.
+
+For each file:
+1. calculate SHA-256;
+2. compare with the manifest;
+3. if different, preserve the differing copy and record the discrepancy;
+4. never silently replace a historical file.
+
+A matching hash proves byte-level integrity only. It does not prove authorship, truth, or temporal origin.
+
+For an alleged temporal communication: preserve original bytes; preserve timestamps and metadata; hash before modification; document custody; test ordinary explanations; seek independent confirmation.
