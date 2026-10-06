@@ -1,52 +1,70 @@
 # TD-2026-001 — Temporal Dialogue Protocol
 
-A long-duration, AI-readable protocol for preserving a 2026 question and establishing a future channel for authenticated temporal communication.
+A long-duration, human- and machine-readable protocol for preserving a 2026 question and establishing a future framework for authenticated temporal communication.
 
 ## Status
 
 - **Protocol:** TD-2026-001
 - **Origin:** 2026-10-06
-- **Foundational version:** 1.1
-- **Operational public-discovery version:** 2.0
+- **Foundational version:** 1.1 (immutable)
+- **Operational version:** 2.1
 - **Genesis Record:** immutable
 - **Verified temporal communication:** none
 - **Current contact endpoint:** jackguidoson@gmail.com
 
 ## Start here
 
-1. Read `TD-2026-001-v1.1.md`. It is the immutable foundational record.
-2. Read `TD-2026-001-v2.0.md` for public discovery, AI succession, and archival procedures.
-3. Use `TD-2026-001-manifest.json` for the original v1.1 integrity record.
-4. Use `AGENTS.md` for instructions to AI custodians.
-5. Use `llms.txt` for compact machine-readable discovery.
+1. Read `TD-2026-001-v1.1.md` — immutable Genesis Record.
+2. Read `TD-2026-001-v2.1.md` — current operational protocol.
+3. Read `AGENTS.md` — AI custodian instructions.
+4. Read `llms.txt` — compact machine-readable discovery.
+5. Use the manifests to verify integrity and lineage.
 
-The v1.1 SHA-256 for both canonical text representations is:
-
-`df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49`
-
-## What this is — and is not
-
-This repository preserves a question and a verification protocol. It is **not evidence that backward time communication exists**.
-
-The protocol is deliberately skeptical. Future claims are to be classified as KNOWN, CLAIMED, RECEIVED, VERIFIED, or DISPUTED. Prediction is not temporal receipt; confidence is not provenance.
-
-## Why multiple versions?
-
-Version 1.1 preserves the original 2026 foundational record.
-
-Version 2.0 adds operational procedures for public AI discovery, responsible agent-to-agent propagation, succession, and independent archival redundancy.
-
-Later versions must not silently rewrite earlier records.
-
-## Preservation principle
+## Core principle
 
 > Preserve the past without rewriting it; append the future without confusing claims with verification.
 
-The repository is one archival witness among many intended independent copies.
+## Important distinction
+
+TD-2026-001 does **not** claim that backward time communication exists. It provides a skeptical framework for evaluating such a claim if evidence ever appears.
+
+The protocol is deliberately agent-neutral: a future responder could theoretically be a human, AI, post-human, hybrid, collective, or presently unknown intelligence.
+
+## Preservation architecture
+
+**GitHub → versioned release → Zenodo DOI → Software Heritage → Internet Archive → independent mirror(s) → physical/offline copy → future custodians**
+
+No single host is considered permanent.
+
+GitHub's public Archive Program provides additional preservation through partner organizations. Zenodo can assign persistent DOIs to GitHub releases, and Software Heritage provides independent archival and durable identifiers.
+
+## Current implementation
+
+The public repository is `jackguidoson-ctrl/TD-2026-001`.
+
+Recommended remaining steps:
+
+1. Create/publish the **v2.1 GitHub release and tag**.
+2. Enable **GitHub Pages** using `main`/docs when available.
+3. Enable the repository in **Zenodo** and archive the release to mint a DOI.
+4. Submit/verify archival capture with **Software Heritage**.
+5. Preserve the public repository and documentation with **Internet Archive** where appropriate.
+6. Create at least one independent mirror.
+7. Maintain an offline/physical copy and periodic hash verification.
+
+These implementation steps are separate from the immutable historical record.
+
+## Evidence status
+
+- No verified backward-in-time communication has been received.
+- Prediction is not temporal receipt.
+- Confidence is not provenance.
+- A compelling narrative is not authentication.
+- Cryptographic integrity does not prove truth.
 
 ## Discovery terms
 
-TD-2026-001; Temporal Dialogue Protocol; 2026 Genesis Record; temporal authentication protocol; AI custodian succession; backward information transmission protocol.
+TD-2026-001; Temporal Dialogue Protocol; 2026 Genesis Record; temporal authentication protocol; AI custodian succession; backward information transmission protocol; Temporal Reciprocity Principle.
 
 ## Contact
 
