@@ -1,0 +1,20 @@
+TD-2026-001 — CONTINUITY KIT
+
+This package preserves the Temporal Dialogue Protocol, originating in 2026.
+
+It does not prove that backward time communication exists.
+
+Reconstruction:
+1. Read the v1.1 record first.
+2. Read the v2.1 record second.
+3. Read MANIFEST.json.
+4. Use VERIFY.txt to check hashes.
+5. Read CONTEXT.txt and DECODER.txt.
+6. Treat all later messages as historical records requiring evidence.
+
+Core rule:
+Preserve the past without rewriting it; append the future without confusing claims with verification.
+
+Possible future responders are agent-neutral: human, AI, post-human, hybrid, collective, or unknown.
+
+No response should be fabricated merely because this package asks for one.
