@@ -23,7 +23,7 @@ A long-duration, human- and machine-readable protocol for preserving a 2026 ques
 6. Read `docs/MULTI-AI.md` — independent review framework.
 7. Read `docs/TEMPORAL-COMMUNICATION-RESEARCH.md` — living temporal communication research ledger.
 8. Read `llms.txt` — compact machine-readable discovery.
-7. Use manifests to verify integrity and lineage.
+9. Use manifests to verify integrity and lineage.
 
 ## Core principles
 
