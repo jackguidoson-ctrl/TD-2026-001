@@ -71,3 +71,18 @@ TD-2026-001; Temporal Dialogue Protocol; 2026 Genesis Record; temporal authentic
 Current human contact endpoint: jackguidoson@gmail.com
 
 Email is a contact mechanism, not proof of authenticity and not the sole archive.
+
+
+## Research-informed expansion
+
+A research synthesis in RESEARCH.md compares TD-2026-001 with long-term preservation efforts including Long Now/Rosetta, LOCKSS, the GitHub Archive Program, Software Heritage, Zenodo, Internet Archive, Arctic World Archive, Library of Congress preservation practice, and Common Crawl.
+
+The project adopts their strongest relevant ideas—redundancy, independent witnesses, future-readable context, open formats, controlled evolution, content integrity, archival identifiers, and preservation across multiple media—without adopting their missions or claims.
+
+The research integration branch also contains:
+- docs/ARCHITECTURE.md
+- docs/VERIFICATION.md
+- docs/TECH-TREE.md
+- docs/PROJECT-PLAN.md
+- continuity-kit/
+- .github/workflows/integrity.yml
