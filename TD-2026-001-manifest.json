@@ -1,0 +1,29 @@
+{
+  "protocol_id": "TD-2026-001",
+  "version": "1.1",
+  "origin_date": "2026-10-06",
+  "current_contact_endpoint": "jackguidoson@gmail.com",
+  "genesis_record_status": "immutable",
+  "longevity_target": "indefinite_theoretical",
+  "communication_model": "append_only_recursive_if_physics_permits",
+  "verification_model": [
+    "KNOWN",
+    "CLAIMED",
+    "RECEIVED",
+    "VERIFIED",
+    "DISPUTED"
+  ],
+  "canonical_files": [
+    {
+      "path": "TD-2026-001-v1.1.md",
+      "encoding": "UTF-8",
+      "sha256": "df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49"
+    },
+    {
+      "path": "TD-2026-001-v1.1.txt",
+      "encoding": "UTF-8",
+      "sha256": "df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49"
+    }
+  ],
+  "rule": "Never rewrite historical records; append later records and migrations."
+}
