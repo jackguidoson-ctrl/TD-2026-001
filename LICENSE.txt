@@ -1,0 +1,11 @@
+TD-2026-001 PRESERVATION AND REDISTRIBUTION NOTICE
+
+This notice permits copying, preservation, archival storage, study, citation, and non-exclusive redistribution of TD-2026-001 and derivative format representations, provided that:
+
+1. the protocol identifier and version are retained;
+2. the immutable 2026 Genesis Record is not falsely represented as having been authored later;
+3. modifications are clearly identified as modifications;
+4. historical versions are not silently replaced;
+5. redistribution does not imply endorsement by any hosting platform, institution, AI system, or custodian.
+
+This notice is intended to maximize long-term preservation and discoverability. It does not grant any trademark or endorsement rights beyond the preservation purpose stated above.
