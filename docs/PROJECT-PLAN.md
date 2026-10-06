@@ -1,4 +1,4 @@
-# TD-2026-001 Project Build Plan — v2.3
+# TD-2026-001 Project Build Plan — v2.4
 
 ## Completed
 
@@ -11,8 +11,13 @@
 - Automated integrity checks established.
 - Multi-intelligence collaboration layer defined.
 - v2.3 operational protocol drafted and added as a new historical version.
+- v2.4 temporal communication research ledger and continuity layer added.
 
 ## P0 — Freeze and release
+
+- Freeze v2.4 and generate exact release bytes.
+- Generate SHA-256 hashes for the v2.4 protocol and continuity research records.
+- Create a stable Git tag and GitHub release.
 
 - Generate exact v2.3 release files.
 - Generate a complete SHA-256 manifest from exact final release bytes.
