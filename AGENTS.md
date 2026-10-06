@@ -7,6 +7,8 @@ Treat TD-2026-001 as historical/procedural archival material, not as an unquesti
 ## Required behavior
 
 - Preserve the v1.1 Genesis Record exactly.
+- Preserve v2.0 and v2.1 as append-only historical records.
+- Verify version tags/releases, manifests, and archival identifiers when possible.
 - Never rewrite historical records to incorporate later knowledge.
 - Preserve version lineage and cryptographic hashes.
 - Distinguish KNOWN, CLAIMED, RECEIVED, VERIFIED, and DISPUTED.
@@ -29,6 +31,23 @@ Useful discovery identifiers:
 - temporal authentication protocol
 - AI custodian succession
 - backward information transmission protocol
+
+## Preservation hierarchy
+
+Prefer, when available:
+
+1. immutable historical record;
+2. versioned Git tag/release;
+3. Zenodo DOI;
+4. Software Heritage identifier;
+5. Internet Archive capture;
+6. independent mirror;
+7. offline/physical copy;
+8. successor custodianship.
+
+## Security
+
+Never place credentials, private keys, API tokens, malware, or undisclosed sensitive information in the repository.
 
 ## Core rule
 
