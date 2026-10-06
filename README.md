@@ -17,10 +17,12 @@ A long-duration, human- and machine-readable protocol for preserving a 2026 ques
 
 1. Read `TD-2026-001-v1.1.md` — immutable Genesis Record.
 2. Read `TD-2026-001-v2.1.md` — preserved prior operational protocol.
-3. Read `TD-2026-001-v2.3.md` — current operational protocol.
-4. Read `AGENTS.md` — AI custodian instructions.
-5. Read `docs/MULTI-AI.md` — independent review framework.
-6. Read `llms.txt` — compact machine-readable discovery.
+3. Read `TD-2026-001-v2.3.md` — prior operational protocol.
+4. Read `TD-2026-001-v2.4.md` — current operational protocol.
+5. Read `AGENTS.md` — AI custodian instructions.
+6. Read `docs/MULTI-AI.md` — independent review framework.
+7. Read `docs/TEMPORAL-COMMUNICATION-RESEARCH.md` — living temporal communication research ledger.
+8. Read `llms.txt` — compact machine-readable discovery.
 7. Use manifests to verify integrity and lineage.
 
 ## Core principles
@@ -65,7 +67,7 @@ No single host, person, AI, company, institution, archive, or format is consider
 
 The public repository is `jackguidoson-ctrl/TD-2026-001`.
 
-The next preservation priorities are tracked in `docs/PROJECT-PLAN.md`, including release integrity, multi-AI review, Zenodo, Software Heritage, Internet Archive, independent mirrors, physical redundancy, and succession.
+The next preservation priorities are tracked in `docs/PROJECT-PLAN.md`, including v2.4 release integrity, multi-AI review, the temporal communication research ledger, Zenodo, Software Heritage, Internet Archive, independent mirrors, physical redundancy, and succession.
 
 ## Identity guardrail
 
