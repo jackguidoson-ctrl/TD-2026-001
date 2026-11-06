@@ -60,3 +60,6 @@ Canonical navigation:
 
 Version note:
 The history references v2.2, but no canonical v2.2 file is currently located. Do not reconstruct it without an authenticated source.
+
+Preservation audit:
+docs/PRESERVATION-AUDIT-2026-11-06.md records the 2026-11-06 repository audit, byte-integrity correction, current external archive status, risks, and next steps.
