@@ -10,3 +10,7 @@ v2.4 — living, append-only Temporal Communication Research Ledger, mechanism-s
 Historical versions must remain recoverable and must never be rewritten to incorporate later knowledge.
 
 Future revisions must append to this history.
+
+
+Custody note — 2026-11-06:
+The history references v2.2, but no canonical v2.2 document was located in the public repository or the searched Library records during this review. Preserve this reference as historical metadata; do not reconstruct or label a new document as the original v2.2 without an authenticated source.
