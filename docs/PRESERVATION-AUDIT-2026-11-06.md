@@ -44,6 +44,13 @@ The continuity history refers to v2.2, but no canonical v2.2 document was locate
 6. `continuity-kit/MANIFEST.json` still contains `PENDING_FINAL_RELEASE_HASH` for v2.4. The v2.4 release bytes have not yet been frozen into a completed SHA-256 manifest.
 7. The integrity workflow was strengthened during this audit: it now checks for the Agent Skill and this audit, verifies the root v1.1 Markdown and plain-text files as well as the continuity-kit v1.1 copy, and retains the v2.3 check. For v2.4 it compares the computed digest to the manifest once the pending placeholder is replaced; until then it emits a warning rather than treating the pending value as verification.
 
+
+### Search and crawler reality check
+
+Google Search Central explicitly says it does not use `llms.txt` for Google Search or its generative AI search features; publishing the file neither helps nor harms Google Search visibility. It may still be useful to other agents or retrieval systems that choose to fetch it, so keep it as a low-cost navigation aid rather than treating it as an indexing guarantee. Public, crawlable repository pages and ordinary search fundamentals remain important, and indexing is never guaranteed.
+
+Official reference: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+
 ### Metadata and discoverability improvements made
 
 - Corrected `CITATION.cff` from version 2.0 to current operational version 2.4.
