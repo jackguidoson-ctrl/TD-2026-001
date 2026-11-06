@@ -36,13 +36,13 @@ The continuity history refers to v2.2, but no canonical v2.2 document was locate
 
 ### Integrity observations
 
-1. The GitHub copies of the v1.1 Markdown and plain-text files initially contained one extra terminal newline compared with the preserved Library originals.
-2. On 2026-11-06, the terminal newline was removed from the two GitHub copies only. No words or substantive content were changed.
-3. The resulting GitHub v1.1 Markdown and plain-text files now exactly match the preserved Library source text and each other. Their Git blob SHA is `4d5ef50262c0d816417f8144ca4b2d1f0d3e3660`.
+1. The GitHub root Markdown, root plain-text, and continuity-kit plain-text copies of v1.1 initially contained one extra terminal newline compared with the preserved Library originals.
+2. On 2026-11-06, the terminal newline was removed from all three GitHub copies only. No words or substantive content were changed. The continuity-kit correction was committed as `54e0f35c128f6397074181293858d918fb300841`.
+3. The resulting GitHub root Markdown, root plain-text, and continuity-kit plain-text v1.1 files now exactly match the preserved Library source text and each other. All three have Git blob SHA `4d5ef50262c0d816417f8144ca4b2d1f0d3e3660`.
 4. The existing manifest declares the v1.1 SHA-256 as `df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49`. The text comparison confirms that the GitHub mirror now matches the Library source; the release pipeline should still recompute SHA-256 from the frozen release bytes.
 5. The current v2.4 Markdown file and its continuity-kit text representation have the same Git blob SHA, as do the main research-ledger Markdown file and its continuity-kit text representation.
 6. `continuity-kit/MANIFEST.json` still contains `PENDING_FINAL_RELEASE_HASH` for v2.4. The v2.4 release bytes have not yet been frozen into a completed SHA-256 manifest.
-7. The existing integrity workflow checks required files, JSON syntax, the v1.1 and v2.3 hashes, and obvious secret patterns. It prints the v2.4 hash but does not yet compare it with a pinned expected v2.4 digest.
+7. The integrity workflow was strengthened during this audit: it now checks for the Agent Skill and this audit, verifies the root v1.1 Markdown and plain-text files as well as the continuity-kit v1.1 copy, and retains the v2.3 check. For v2.4 it compares the computed digest to the manifest once the pending placeholder is replaced; until then it emits a warning rather than treating the pending value as verification.
 
 ### Metadata and discoverability improvements made
 
