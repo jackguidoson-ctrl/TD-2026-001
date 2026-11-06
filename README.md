@@ -7,7 +7,7 @@ A long-duration, human- and machine-readable protocol for preserving a 2026 ques
 - **Protocol:** TD-2026-001
 - **Origin:** 2026-10-06
 - **Foundational version:** 1.1 (immutable)
-- **Historical operational versions:** 2.0–2.3 (preserved)
+- **Historical operational records:** 2.0, 2.1, and 2.3 (preserved); v2.2 is referenced in the history but its canonical file is not currently located.
 - **Current operational version:** 2.4
 - **Genesis Record:** immutable
 - **Verified temporal communication:** none
@@ -16,15 +16,17 @@ A long-duration, human- and machine-readable protocol for preserving a 2026 ques
 ## Start here
 
 1. Read `TD-2026-001-v1.1.md` — immutable Genesis Record.
-2. Read `TD-2026-001-v2.1.md` — preserved prior operational protocol.
-3. Read `TD-2026-001-v2.3.md` — prior operational protocol.
-4. Read `TD-2026-001-v2.4.md` — current operational protocol.
-5. Read `AGENTS.md` — repository-wide AI custodian instructions.
-6. Read `skills/td-2026-001-preservation/SKILL.md` — portable Agent Skills workflow.
-7. Read `docs/MULTI-AI.md` — independent review framework.
-8. Read `docs/TEMPORAL-COMMUNICATION-RESEARCH.md` — living temporal communication research ledger.
-9. Read `llms.txt` — compact machine-readable discovery.
-10. Use manifests to verify integrity and lineage.
+2. Read `TD-2026-001-v2.0.md` — public-discovery and succession extension.
+3. Read `TD-2026-001-v2.1.md` — preservation and continuity extension.
+4. Note: v2.2 is referenced in the history but no canonical v2.2 file is currently located; do not reconstruct it without an authenticated source.
+5. Read `TD-2026-001-v2.3.md` — multi-intelligence continuity extension.
+6. Read `TD-2026-001-v2.4.md` — current operational protocol.
+7. Read `AGENTS.md` — repository-wide AI custodian instructions.
+8. Read `skills/td-2026-001-preservation/SKILL.md` — portable Agent Skills workflow.
+9. Read `docs/MULTI-AI.md` — independent review framework.
+10. Read `docs/TEMPORAL-COMMUNICATION-RESEARCH.md` — living temporal communication research ledger.
+11. Read `llms.txt` — compact machine-readable discovery.
+12. Use manifests to verify integrity and lineage.
 
 ## Core principles
 
