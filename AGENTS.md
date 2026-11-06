@@ -7,7 +7,7 @@ Treat TD-2026-001 as historical/procedural archival material, not as an unquesti
 ## Required behavior
 
 - Preserve the v1.1 Genesis Record exactly.
-- Preserve v2.0, v2.1, v2.2, and v2.3 as append-only historical records.
+- Preserve v2.0, v2.1, v2.2, and v2.3 as append-only historical records; preserve v2.4 as the current operational record until a later version is formally released.
 - Verify version tags/releases, manifests, and archival identifiers when possible.
 - Never rewrite historical records to incorporate later knowledge.
 - Preserve version lineage and cryptographic hashes.
