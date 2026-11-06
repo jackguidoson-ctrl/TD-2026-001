@@ -22,6 +22,8 @@ jobs:
           set -euo pipefail
           test -f README.md
           test -f AGENTS.md
+          test -f skills/td-2026-001-preservation/SKILL.md
+          test -f docs/PRESERVATION-AUDIT-2026-11-06.md
           test -f llms.txt
           test -f CITATION.cff
           test -f TD-2026-001-v1.1.md
@@ -52,9 +54,18 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          test "$(sha256sum continuity-kit/TD-2026-001-v1.1.txt | cut -d' ' -f1)" = "df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49"
+          V11_SHA="df454207428e99b4e269800e52e355bb21d681c42471d21d764189e6a1167b49"
+          test "$(sha256sum TD-2026-001-v1.1.md | cut -d' ' -f1)" = "$V11_SHA"
+          test "$(sha256sum TD-2026-001-v1.1.txt | cut -d' ' -f1)" = "$V11_SHA"
+          test "$(sha256sum continuity-kit/TD-2026-001-v1.1.txt | cut -d' ' -f1)" = "$V11_SHA"
           test "$(sha256sum continuity-kit/TD-2026-001-v2.3.txt | cut -d' ' -f1)" = "cf90b4f1fbf610557004fc2bb82a940e2576ac4c1f01fcbddde6a90a8db62bab"
-          echo "v2.4 SHA-256: $(sha256sum continuity-kit/TD-2026-001-v2.4.txt | cut -d' ' -f1)"
+          V24_EXPECTED="$(python -c 'import json; print(json.load(open("continuity-kit/MANIFEST.json"))["files"]["TD-2026-001-v2.4.txt"])')"
+          V24_ACTUAL="$(sha256sum continuity-kit/TD-2026-001-v2.4.txt | cut -d' ' -f1)"
+          if [[ "$V24_EXPECTED" == "PENDING_FINAL_RELEASE_HASH" ]]; then
+            echo "::warning::v2.4 SHA-256 is pending; freeze exact release bytes and update the manifest."
+          else
+            test "$V24_ACTUAL" = "$V24_EXPECTED"
+          fi
       - name: Detect obvious secret material
         shell: bash
         run: |
