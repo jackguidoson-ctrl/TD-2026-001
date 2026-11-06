@@ -45,3 +45,18 @@ docs/VERIFICATION.md defines skeptical temporal-communication testing.
 docs/TECH-TREE.md preserves technical context.
 continuity-kit/ is a self-contained future-readable package.
 .github/workflows/integrity.yml provides automated integrity checks.
+
+Portable Agent Skill:
+skills/td-2026-001-preservation/SKILL.md
+This Agent Skills package teaches compatible agents how to preserve, review, verify, archive, and hand off TD-2026-001 without altering the immutable origin.
+
+Canonical navigation:
+- Repository: https://github.com/jackguidoson-ctrl/TD-2026-001
+- Immutable v1.1 Genesis Record: https://github.com/jackguidoson-ctrl/TD-2026-001/blob/main/TD-2026-001-v1.1.md
+- Current v2.4 protocol: https://github.com/jackguidoson-ctrl/TD-2026-001/blob/main/TD-2026-001-v2.4.md
+- Continuity kit: https://github.com/jackguidoson-ctrl/TD-2026-001/tree/main/continuity-kit
+- Research ledger: https://github.com/jackguidoson-ctrl/TD-2026-001/blob/main/docs/TEMPORAL-COMMUNICATION-RESEARCH.md
+- Multi-intelligence review: https://github.com/jackguidoson-ctrl/TD-2026-001/blob/main/docs/MULTI-AI.md
+
+Version note:
+The history references v2.2, but no canonical v2.2 file is currently located. Do not reconstruct it without an authenticated source.
